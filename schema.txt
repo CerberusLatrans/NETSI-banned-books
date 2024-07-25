@@ -1,0 +1,12 @@
+Title (str)
+Author (str)
+DateBan (pd.Period): use pd.Period instead of pd.DateTime since DateTime cannot handle pre-1600 dates
+Country (str)
+State (str): only for US
+District (str): district or city
+
+Description (str): misc info and links
+
+Ban Status (str)
+Type of Ban (str)
+Origin of Challenge (str)
