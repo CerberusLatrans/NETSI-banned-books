@@ -4,9 +4,6 @@ DateBan (pd.Period): use pd.Period instead of pd.DateTime since DateTime cannot 
 Country (str)
 State (str): only for US
 District (str): district or city
+Dataset (str): originating dataset name
 
 Description (str): misc info and links
-
-Ban Status (str)
-Type of Ban (str)
-Origin of Challenge (str)
